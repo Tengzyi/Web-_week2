@@ -1,8 +1,8 @@
-### 一、复习
+### 一.复习
 复习了上一周的内容，初步了解并使用
 
 - requests-html  丶
-- pd.read_html 丶及
+- pd.read_html 及
 - requests + lxml 
 
 的Web数据挖掘，主要包括以下的主要数据挖掘内容：
@@ -12,17 +12,18 @@
 3. 执行 HTML 解析（parse HTML），使用 xpath or CSS selector 选择器进行对数据的简易抓取
 
 
-### 二、本周学习内容
+### 二.本周学习内容
 
 1. 使用 requests-html 爬取并存取网页文字档，查找[requests-html 中文文档](https://cncert.github.io/requests-html-doc-cn/#/)
 2. **熟悉 [xpath 语法](https://www.w3cschool.cn/xpath/xpath-syntax.html)丶[xpath 节点](https://www.w3cschool.cn/xpath/xpath-nodes.html)**
 3. **使用 [xpath cheatsheet](https://devhints.io/xpath)**
-   * 在 Chrome Inspector 使用
-   * 在 requests-html (Python) 使用
+    - 在 Chrome Inspector 使用
+    - 在 requests-html (Python) 使用
 4. 简易使用 [pd.DataFrame]()，对数据进行表格处理
 
-### 三、个人实践
+
+### 三.个人实践
 - 解析简单HTML页面
 - 使用xpath（不挑greedy vs. 及挑剔ungreedy的策略）
 - 获取标签tags丶属性attributes丶值values
-- 爬取[猎聘网](https://m.liepin.com/zhaopin/?keyword=pandas&dqs=000&salarylow=0&salaryhigh=999&industrys=000&compScale=000&compKind=000&pubtime=000&jobkind=&d_headId=0d45df699251a6430b95e4f30ea72696&d_ckId=0d45df699251a6430b95e4f30ea72696&d_sfrom=search_unknown&d_curPage=0&d_pageSize=60&siTag=OkO0-IMl2UAiwO-pwvovWg~SxyHdjpkpWlDj1D53mLDeg)数据，获取该页面各公司信息以及招聘条件并利用pandas制成表格。
+- 爬取猎聘网数据，获取该页面各公司信息以及招聘条件等并利用pandas制成表格，进行分析。
